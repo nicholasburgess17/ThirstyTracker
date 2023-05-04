@@ -1,0 +1,50 @@
+## Plants Mobile Application
+
+# Stack 
+- React Native
+- NextJS
+- Prisma
+- SASS
+
+# Features
+- reminder to water Plants
+- identify plants
+- upload pictures of plant 
+- notification on phone 
+
+# Feature methods
+    - OpenAI for plant recognition and care?
+
+# MVP
+user account creation (google OAuth)
+keep track of user plants
+notifcations on watering or care
+upload photo 
+manual adding plants if ai doesnt recognize or does so incorrectly 
+
+# STRETCH
+ - plant reccomendations (revenue)
+
+## ERD
+
+# tables 
+- users 
+    - user id (PK)
+    - name/username
+    - email
+    - user plants (FK)
+    - one
+- plants 
+    - id (pk)
+    - picture of plant
+    - name of plant
+    - number of plants (of same kind)
+    - last time watered
+    - user ID (fk)
+
+
+
+-- wireframe
+ -- erd
+  -- set up repo
+  
