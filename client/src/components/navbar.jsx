@@ -11,10 +11,10 @@ const NavBar = () => {
         <Text style={{ fontWeight: 'bold', fontSize: 18 }}>Plants</Text>
       </TouchableOpacity>
       <TouchableOpacity>
-        <Text style={{ fontWeight: 'bold', fontSize: 18 }}>Settings</Text>
+        <Text style={{ fontWeight: 'bold', fontSize: 18 }}>Search</Text>
       </TouchableOpacity>
       <TouchableOpacity>
-        <Text style={{ fontWeight: 'bold', fontSize: 18 }}>Search</Text>
+        <Text style={{ fontWeight: 'bold', fontSize: 18 }}>Settings</Text>
       </TouchableOpacity>
     </View>
   );
