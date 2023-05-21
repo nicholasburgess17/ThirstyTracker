@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text } from 'react-native';
-import Todo from './todo';
+// import Todo from './todo';
 
 // Assume you have a function to fetch user's todos from the database
 const fetchUserTodos = async () => {
