@@ -4,6 +4,8 @@ module.exports = {
       "./index.html",
       "./src/**/*.{js,jsx,ts,tsx}",
     ],
+    plugins: [require('nativewind/tailwind/css')],
+    important: 'html',
     theme: {
       extend: {
         colors: {
